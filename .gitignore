@@ -1,0 +1,24 @@
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+_multiconfig.yml
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Hexo 生成文件
+public/
+.deploy*/
+.deploy_git/
+
+# 依赖
+node_modules/
+
+# 日志和数据库
+db.json
+*.lognpm install hexo-deployer-git --save
